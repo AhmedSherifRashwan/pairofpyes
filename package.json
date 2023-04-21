@@ -3,6 +3,10 @@
   "displayName": "pairofpyes",
   "description": "another pair of python eyes looking at your code",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmedSherifRashwan/pairofpyes"
+  },
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -14,8 +18,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "pairofpyes.helloWorld",
-        "title": "Hello World"
+        "command": "extension.showSuggestions",
+        "title": "Show suggestions"
       }
     ]
   },
